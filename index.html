@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculatrice</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+    <!-- CSS Script -->
+    <link href="./public/assets/css/main.css" rel="stylesheet">
+</head>
+<body class="bg-gray">
+    <div class="w-275px">
+        <table class="w-100">
+            <tr class="w-100">
+                <td class="w-100" colspan="4">
+                    <input type="text" id="resultCalc" value="" style="width: 97%; height: 40px;" readonly>
+                </td>
+            </tr>
+            <tr class="w-100">
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValReset">CE</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValReturn">&#x2190;</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValModulo">%</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValPlus">+</button>
+                </td>
+            </tr>
+            <tr class="w-100">
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal7">7</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal8">8</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal9">9</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValMinus">-</button>
+                </td>
+            </tr>
+            <tr class="w-100">
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal4">4</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal5">5</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal6">6</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValMulti">x</button>
+                </td>
+            </tr>
+            <tr class="w-100">
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal1">1</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal2">2</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal3">3</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValDiv">/</button>
+                </td>
+            </tr>
+            <tr class="w-100">
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonVal0">0</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValInverse">&#xB1;</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="Decimal">.</button>
+                </td>
+                <td class="w-80px h-50px">
+                    <button class="calc-button" id="buttonValCalc">=</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- JS Script -->
+    <script src="./public/assets/js/main.js"></script>
+</body>
+</html>
