@@ -17,3 +17,7 @@ Première application desktop développer avec la librairie <a href="https://www
 ```sh
     npm run make
 ```
+
+## Information complémentaire
+
+L'application est pour le moment purement visuelle. La partie back sera développée prochainement.
